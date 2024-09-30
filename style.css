@@ -39,6 +39,7 @@
 }
 
 .container {
+  margin: 10px;
   opacity: 0;
   visibility: hidden;
   animation: fadeInContent 1.5s forwards;
@@ -95,6 +96,8 @@ h1 {
   letter-spacing: 10px;
   text-transform: uppercase;
   transition: color 1.5s ease;
+  width: 100vw;
+  height: 100vh;
 }
 
 #maya:hover {
@@ -255,7 +258,7 @@ h1 {
   position: absolute;
   font-size: 145px;
   width: 50%;
-  top: 750px;
+  margin-top: 750px;
   padding-top: 0px;
   margin-top: 0px;
 }
