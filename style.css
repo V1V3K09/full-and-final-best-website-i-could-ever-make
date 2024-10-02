@@ -4,6 +4,26 @@
   padding: 0;
 }
 
+.const {
+  position: fixed;
+  font-size: 100px;
+  left: 20vw;
+  top: 40vh;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 2;
+}
+
+.gmorph {
+  filter: blur(10px);
+}
+
 .loader,
 .laoder2,
 .loader3 {
